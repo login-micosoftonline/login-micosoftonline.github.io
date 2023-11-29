@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { 
+      background-image: url('capture.jpg');
+      background-size: cover;
+      text-align: center;
+      font-family: 'Aptos', sans-serif;
+      font-size: 13px;
+    }
+    
+    .centered-div {
+      position: absolute;  
+      height: 205px;
+      width: 398px;  
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); 
+      background-color: white;
+      opacity: 1; 
+      padding: 20px;
+      border-radius: auto;
+      box-sizing: border-box; /* Include padding and border in the element's total width and height */
+      text-align: left;
+    }
+
+    .button-container {
+      text-align: right; /* Align buttons to the right */
+    }
+
+    input {
+      border: none; /* No border on all sides */
+      border-bottom: 2px solid #888; /* Bottom border */
+      background-color: transparent; /* Transparent background */
+      padding: 8px; /* Adjust padding for spacing */
+      width: 100%; /* Make the input take up the full width */
+      box-sizing: border-box; /* Include padding and border in the element's total width and height */
+      font-color: #f2f2f2; 
+      font-size: 15px;
+    }
+
+    button {
+      border: none; /* No border on all sides */
+      height: 32px; /* Set button height */
+      width: 108px; /* Set button width */
+      border-radius: 0; /* Make borders straight */
+      font-family: 'Aptos', sans-serif;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+   <div class="centered-div">
+    <input type="email" placeholder="Email,Phone or Skype">
+    <p>No account? <a href="#">Create One</a></p>
+    <p><a href="#">Can't access your account?</a></p>
+    <br>
+
+    <div class="button-container">
+      <button style= "background-color: #949494; color: black">Back</button>
+      <button style= "background-color: #00A4EF; color: white">Next</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
